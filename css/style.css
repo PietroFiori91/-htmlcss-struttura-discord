@@ -97,6 +97,44 @@ main section {
 }
 
 footer {
+    width: 100%;
+    height: auto;
     background-color: rgb(43, 43, 72);
+    padding-top: 32px;
 }
 
+.top-footer {
+    background-color: pink;
+    width: 1200px;
+    height: 600px;
+    margin: 32px auto;
+}
+
+.bottom-footer {
+    background-color: rgb(192, 255, 212);
+    width: 1200px;
+    height: auto;
+    margin:auto;
+    margin-top: 32px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section:last-of-type {
+    padding: 8px 0;
+}
+
+.nav-column {
+    background-color: rgb(190, 255, 255);
+    height: auto;
+    width: 15%;
+    justify-content: flex-end;
+    /* flex-grow: 1 - 25%; */
+}
+
+section h5 {
+    background-color: pink;
+}
