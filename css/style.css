@@ -13,7 +13,6 @@ header {
 .header-container {
     min-height: 50px;
     background-color: blue;
-    display: flex;
     padding: 16px 32px;
 }
 
@@ -24,17 +23,14 @@ nav {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
+    line-height: 2rem;
 }
 
 ul {
     display: flex;
     list-style: none;
     flex-grow: 1;
-    /* align-items: center; */
     justify-content: center;
-    /* text-align: center; */
 }
 
 li {
@@ -43,14 +39,10 @@ li {
 
 .logo-nav {
     padding: 0 16px;
-    /* flex-grow: 1; */
 }
 
 .login {
     padding: 0 16px;
-    /* flex-grow: 1; */
-    /* justify-self: flex-end; */
-    /* justify-content: flex-end; */
 }
 
 .header-welcome {
@@ -60,6 +52,7 @@ li {
     background-color: rgb(255, 0, 183);
     margin:auto;
     margin-top: 64px;
+    border-radius: 0.5rem;
 }
 
 main {
@@ -123,7 +116,6 @@ footer {
 
 footer section {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 footer section:last-of-type {
@@ -135,7 +127,6 @@ footer section:last-of-type {
     height: auto;
     width: 15%;
     border-right: 2px solid white;
-    /* justify-content: flex-end; */
 }
 
 
